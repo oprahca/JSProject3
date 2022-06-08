@@ -1,0 +1,21 @@
+extends layout.pug
+
+block content 
+  article.grid-container.portfolio-intro
+    div
+
+      h1 A Potential Developer of Portfolio
+
+      p.lead.text-light
+        | Hello there! Welcome to my portfolio website built in Node.js and Express.js using JavaScript.
+        | This site includes routes to each of the development projects and the app project. 
+        | Some page lists provides a live link of the project or the GitHub repo.
+        | Thank you for exploring, and feel free to contact me.
+    
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+      each project in projects
+        .cell
+          a(href=`/project/${project.id}` target='_blank')
+            if project.image_urls[0]
+              img.thumbnail(src=`${project.image_urls}` alt=`project-${project.id}`)
+            h5= project.project_name

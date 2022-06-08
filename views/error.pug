@@ -1,0 +1,11 @@
+extends layout.pug
+
+block content 
+    nav.grid-container.portfolio-breadcrumb
+        a(href='/') ← Back
+    div.grid-container.text-center
+        img.text-center(src='/static/img/error.png' alt='error')
+        h5.text-center= status
+        small.text-left= `${error.stack}`    
+        br
+        br

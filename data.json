@@ -1,0 +1,63 @@
+ {
+     "projects": [
+    {
+        "id": 0,
+        "project_name": "Video Game Library",
+        "description": "A java software for users and the admin, the latter app can add, edit and delete the database including users, video games, issues. Users only can review the detail of borrowing.",
+        "technologies": ["Java","MySQL","JavaFX"],
+        "live_urls": "",
+        "github_urls": "",
+        "image_urls": "/static/img/project_img3.png",
+        "largeImage_urls": ["/static/img/project_img3-1.png","/static/img/project_img3-2.png","/static/img/project_img3-3.png"]
+    },
+    {
+        "id": 1,
+        "project_name": "Random Quotes Show",
+        "description": "There are some famous quotes which randomly presents in the pages when user clicks the button using JavaScript.",
+        "technologies": ["JavaScript","Node.js","HTML","CSS"],
+        "live_urls": "https://oprahca.github.io/JavaScriptProject1/",
+        "github_urls": "https://github.com/oprahca/JavaScriptProject1.git",
+        "image_urls": "/static/img/project_img1.png",
+        "largeImage_urls": ["/static/img/project_img1-1.png","/static/img/project_img1-2.png"]
+    },
+    {
+        "id": 2,
+        "project_name": "Page Numbering",
+        "description": "The page presents the contact profile of users with limiting 10 users each page. The bottom of the page presents the page numbers with JavaScript.",
+        "technologies": ["JavaScript","Node.js","HTML","CSS"],
+        "live_urls": "https://oprahca.github.io/JSProject2/",
+        "github_urls": "https://github.com/oprahca/JSProject2.git",
+        "image_urls": "/static/img/project_img2.png",
+        "largeImage_urls": ["/static/img/project_img2-1.png","/static/img/project_img2-2.png"]
+    },
+    {
+        "id": 3,
+        "project_name": "To Do List",
+        "description": "The page presents the simple list for tasks usign JavaScript with temp data. It can be added or deleted or edited.",
+        "technologies": ["JavaScript","Node.js","HTML","CSS","Express.js"],
+        "live_urls": "",
+        "github_urls": "",
+        "image_urls": "/static/img/project_img4.png",
+        "largeImage_urls": ["/static/img/project_img4-1.png","/static/img/project_img4-2.png"]
+    },
+    {
+        "id": 4,
+        "project_name": "Tip Calculator APP",
+        "description": "The application can calculate the tip price and tax fee, you can increase or decrease the percent of the tip.",
+        "technologies": ["Java","XML","Android"],
+        "live_urls": "",
+        "github_urls": "",
+        "image_urls": "/static/img/project_img5.png",
+        "largeImage_urls": ["/static/img/project_img5-1.png","/static/img/project_img5-2.png"]
+    },
+    {
+        "id": 5,
+        "project_name": "BMI Calculator",
+        "description": "The page present a simple calculator of the BMI for health life, which used JavaScript, Node.js, Express.js, and used template PUG framework.",
+        "technologies": ["JavaScript","Node.js","Express.js","HTML","CSS"],
+        "live_urls": "",
+        "github_urls": "https://github.com/oprahca/JSAssignment1.git",
+        "image_urls": "/static/img/project_img6.png",
+        "largeImage_urls": ["/static/img/project_img6-1.png","/static/img/project_img6-2.png"]
+    }
+]}
