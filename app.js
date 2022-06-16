@@ -5,7 +5,6 @@
 // let application to use express and port number
 const express = require("express");
 const app = express();
-const port = 3000;
 
 // fetch the json file of the object literal
 const { projects } = require("./data.json");
@@ -64,6 +63,6 @@ app.use((err, req, res, next) => {
 });
 
 // start the server with port 3000
-app.listen(port, () => {
-  console.log(`Server running on: localhost:${port}`);
+app.listen(3000, () => {
+  console.log(`Server running on: localhost:3000`);
 });
